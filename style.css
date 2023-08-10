@@ -1,0 +1,86 @@
+.main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #3a0ca3;
+}
+.formulario {
+    display: flex;
+    gap: 10px;
+    
+}
+
+input {
+    border-radius: 10px;
+    box-shadow: none;
+    width: 150px;
+    height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: #ffc8dd;
+}
+input:hover{
+    background-color: #ffafcc;
+    box-shadow: #ffafcc;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 500px;
+    border-radius: 10px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+.titulo {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: #3a0ca3;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border-radius: 10px;
+}
+.ingredientes, .precio {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: #3a0ca3;
+    font-weight: 600;
+}
+.error-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 300px;
+    border-radius: 10px;
+
+}
+.error-card {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: #3a0ca3;
+    font-weight: 600;
+}
